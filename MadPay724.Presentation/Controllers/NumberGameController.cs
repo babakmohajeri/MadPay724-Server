@@ -14,6 +14,8 @@ namespace MadPay724.Presentation.Controllers
         private static readonly string[] day = new string[] { "Monday", "Thuesday", "Wendsday", "Thersdauy", "Friday", "saturday", "Sunday" };
         List<Days> myday = new List<Days>();
 
+        //Test
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<string>>> Get()
         {
